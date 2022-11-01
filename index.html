@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor Challenge</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main>
+
+        <div class="card card-1">
+
+            <div class="circle-container">
+                    <img src="images/icon-star.svg" alt="estrella" class="star">
+            </div>
+
+            <h2 class="tittle">How did we do?</h2>
+
+            <p class="text">
+                Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+            </p>
+
+            <form id="form-rating">
+                <div class="keypad">
+                    <div >
+                        <input type="radio" name="valoration" id="val1" value="1">
+                        <label for="val1" class="circle-container rating">1</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="valoration" id="val2" value="2">
+                        <label for="val2" class="circle-container rating">2</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="valoration" id="val3" value="3">
+                        <label for="val3" class="circle-container rating">3</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="valoration" id="val4" value="4">
+                        <label for="val4" class="circle-container rating">4</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="valoration" id="val5" value="5">
+                        <label for="val5" class="circle-container rating">5</label>
+                    </div>
+                </div>
+
+                <button type="submit" id="buttonSubmit">Submit</button>
+            </form>
+        </div>
+
+        <div class="card card-2">
+            <div class="img-container">
+                <img src="images/illustration-thank-you.svg" alt="thanks-you">
+            </div>
+
+            <p class="val-select"></p>
+
+            <h2 class="tittle">Thank you!</h2>
+
+            <p class="text">
+                We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+            </p>
+
+        </div>
+
+    </main>
+    
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
